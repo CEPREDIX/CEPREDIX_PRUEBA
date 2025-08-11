@@ -9,7 +9,7 @@
       {"text": "Código", "correct": false},
       {"text": "No puedo identificar la respuesta 😥", "correct": false}
     ],
-    "tags": ["GENERAL"],
+    "tags": ["GENERAL","IPN"],
     "hint": "Medio físico en que la información viaja de un punto a otro.",
     "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
   },
@@ -23,7 +23,7 @@
       {"text": "(x+3)/(x-1)", "correct": false},
       {"text": "No puedo identificar la respuesta 😥", "correct": false}
     ],
-    "tags": ["GENERAL"],
+    "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
   }
