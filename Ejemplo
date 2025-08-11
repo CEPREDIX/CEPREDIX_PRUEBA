@@ -52,7 +52,7 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  [
+  }, 
   {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
@@ -80,7 +80,8 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  {
+  },  
+  {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
@@ -106,34 +107,7 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  {
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      {"text": "Canal", "correct": true},
-      {"text": "Emisor", "correct": false},
-      {"text": "Receptor", "correct": false},
-      {"text": "Código", "correct": false},
-      {"text": "No puedo identificar la respuesta 😥", "correct": false}
-    ],
-    "tags": ["GENERAL","IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      {"text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false},
-      {"text": "1", "correct": false},
-      {"text": "(x-3)²/(x+1)²", "correct": true},
-      {"text": "(x+3)/(x-1)", "correct": false},
-      {"text": "No puedo identificar la respuesta 😥", "correct": false}
-    ],
-    "tags": ["GENERAL","UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
+  },  
   {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
@@ -206,6 +180,34 @@
   },
   {
     "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
+    "image": "https://i.imgur.com/KKHibuu.png",
+    "options": [
+      {"text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false},
+      {"text": "1", "correct": false},
+      {"text": "(x-3)²/(x+1)²", "correct": true},
+      {"text": "(x+3)/(x-1)", "correct": false},
+      {"text": "No puedo identificar la respuesta 😥", "correct": false}
+    ],
+    "tags": ["GENERAL","UNAM"],
+    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
+    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
+  },
+  {
+    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
+    "options": [
+      {"text": "Canal", "correct": true},
+      {"text": "Emisor", "correct": false},
+      {"text": "Receptor", "correct": false},
+      {"text": "Código", "correct": false},
+      {"text": "No puedo identificar la respuesta 😥", "correct": false}
+    ],
+    "tags": ["GENERAL","IPN"],
+    "hint": "Medio físico en que la información viaja de un punto a otro.",
+    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
+  },
+  {
+    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
     "options": [
       {"text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false},
       {"text": "1", "correct": false},
@@ -244,7 +246,7 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  [
+  }, 
   {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
@@ -272,7 +274,8 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  {
+  },  
+  {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
@@ -299,7 +302,8 @@
     "tags": ["GENERAL","UNAM"],
     "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
     "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },  {
+  },  
+  {
     "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
     "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
