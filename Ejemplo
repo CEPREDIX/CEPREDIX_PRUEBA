@@ -1,297 +1,41 @@
 [
   {
-    "id": "CEP-ESP-V1-4f8rrt",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
+    "id": "CEPMA04",
+    "question": "Encuentra la derivada de la función f(x) = 3x<sup>5</sup> - 2x<sup>4</sup> + 7",
     "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
+      { "text": "f'(x) = 15x<sup>4</sup> - 8x<sup>3</sup>", "correct": true },
+      { "text": "f'(x) = 5x<sup>4</sup> - 4x<sup>3</sup>", "correct": false },
+      { "text": "f'(x) = 15x<sup>5</sup> - 8x<sup>4</sup> + 7", "correct": false },
+      { "text": "f'(x) = 3x<sup>4</sup> - 2x<sup>3</sup>", "correct": false }
     ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
+    "tags": ["MATEMÁTICAS", "CÁLCULO"],
+    "hint": "Aplica la regla de la potencia para derivadas: d/dx(x<sup>n</sup>) = nx<sup>n-1</sup>.",
+    "explanation": "Al derivar término por término, la derivada de 3x<sup>5</sup> es 15x<sup>4</sup> y la de -2x<sup>4</sup> es -8x<sup>3</sup>. La derivada de una constante (7) es 0."
   },
   {
-    "id": "CEP-ESP-V1-k9p3m2",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
+    "id": "CEPFIS05",
+    "question": "La constante de Planck (h) es aproximadamente 6.626 x 10<sup>-34</sup> J·s. ¿Cuál sería el valor de h<sup>2</sup>?",
     "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
+      { "text": "4.39 x 10<sup>-67</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": true },
+      { "text": "1.32 x 10<sup>-33</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false },
+      { "text": "4.39 x 10<sup>-68</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false },
+      { "text": "6.626 x 10<sup>-68</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false }
     ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
+    "tags": ["FÍSICA", "CUÁNTICA"],
+    "hint": "Para elevar una notación científica al cuadrado, eleva el coeficiente al cuadrado y multiplica el exponente por 2.",
+    "explanation": "Se calcula (6.626)<sup>2</sup> ≈ 43.9 y se multiplica el exponente: 10<sup>-34 * 2</sup> = 10<sup>-68</sup>. El resultado es 43.9 x 10<sup>-68</sup>, que se normaliza a 4.39 x 10<sup>-67</sup>."
   },
   {
-    "id": "CEP-ESP-V1-b6c7d9",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
+    "id": "CEPQUI06",
+    "question": "La ley de los gases ideales es PV = nRT. Si la presión (P) es proporcional a T<sup>4</sup> (ley de Stefan-Boltzmann para la radiación de un cuerpo negro), ¿cómo se relaciona V con T si n y R son constantes?",
     "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
+      { "text": "V es proporcional a T<sup>-3</sup>", "correct": true },
+      { "text": "V es proporcional a T<sup>5</sup>", "correct": false },
+      { "text": "V es proporcional a T<sup>4</sup>", "correct": false },
+      { "text": "V es proporcional a T<sup>3</sup>", "correct": false }
     ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-h2j5k8",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-p9q2r5",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-t3w7y4",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-z8x6c3",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-m5n8b2",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-d4f6g7",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-j3k9l4",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-q7w2e3",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-r6t8y9",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-c2v4b5",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-x7z9n3",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-g8h2j6",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-k4l7p9",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-w3e6r8",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-t2y5u7",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
-  },
-  {
-    "id": "CEP-ESP-V1-b9n6m3",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "image": "https://i.imgur.com/vxy0GjO.png",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEP-ESP-V1-v4c8x2",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
-    "image": "https://i.imgur.com/KKHibuu.png",
-    "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
+    "tags": ["QUÍMICA", "FÍSICA", "GASES"],
+    "hint": "Sustituye P en la ley de los gases ideales y despeja V en términos de T.",
+    "explanation": "Si P = k·T<sup>4</sup>, entonces (k·T<sup>4</sup>)V = nRT. Despejando V, obtenemos V = (nR/k) * (T/T<sup>4</sup>) = (constante) * T<sup>1-4</sup> = (constante) * T<sup>-3</sup>. Por lo tanto, V es proporcional a T<sup>-3</sup>."
   }
 ]
