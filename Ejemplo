@@ -1,46 +1,282 @@
 [
   {
-    "id": "CEPFIS8Ht",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
+    "id": "CEPMA04",
+    "question": "Encuentra la derivada de la función f(x) = 3x<sup>5</sup> - 2x<sup>4</sup> + 7",
     "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
+      { "text": "f'(x) = 15x<sup>4</sup> - 8x<sup>3</sup>", "correct": true },
+      { "text": "f'(x) = 5x<sup>4</sup> - 4x<sup>3</sup>", "correct": false },
+      { "text": "f'(x) = 15x<sup>5</sup> - 8x<sup>4</sup> + 7", "correct": false },
+      { "text": "f'(x) = 3x<sup>4</sup> - 2x<sup>3</sup>", "correct": false }
     ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
+    "tags": ["MATEMÁTICAS", "CÁLCULO"],
+    "hint": "Aplica la regla de la potencia para derivadas: d/dx(x<sup>n</sup>) = nx<sup>n-1</sup>.",
+    "explanation": "Al derivar término por término, la derivada de 3x<sup>5</sup> es 15x<sup>4</sup> y la de -2x<sup>4</sup> es -8x<sup>3</sup>. La derivada de una constante (7) es 0."
   },
   {
-    "id": "CEPCOL2ll",
-    "question": "¿Qué elemento del modelo de la comunicación es el encargado de transmitir el mensaje?",
-    "options": [
-      { "text": "Canal", "correct": true },
-      { "text": "Emisor", "correct": false },
-      { "text": "Receptor", "correct": false },
-      { "text": "Código", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
-    ],
-    "tags": ["GENERAL", "IPN"],
-    "hint": "Medio físico en que la información viaja de un punto a otro.",
-    "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  },
-  {
-    "id": "CEPCOL7AA",
-    "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
+    "id": "CEPFIS05",
+    "question": "La constante de Planck (h) es aproximadamente 6.626 x 10<sup>-34</sup> J·s. ¿Cuál sería el valor de h<sup>2</sup>?",
     "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
-      { "text": "(x-3)(x+3)/(x+2)(x+1)", "correct": false },
-      { "text": "1", "correct": false },
-      { "text": "(x-3)²/(x+1)²", "correct": true },
-      { "text": "(x+3)/(x-1)", "correct": false },
-      { "text": "No puedo identificar la respuesta 😥", "correct": false }
+      { "text": "4.39 x 10<sup>-67</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": true },
+      { "text": "1.32 x 10<sup>-33</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false },
+      { "text": "4.39 x 10<sup>-68</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false },
+      { "text": "6.626 x 10<sup>-68</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false }
     ],
-    "tags": ["GENERAL", "UNAM"],
-    "hint": "Factoriza los cuatro trinomios de la forma x²+bx+c.",
-    "explanation": "Factorizando: [(x+2)(x+3)]/[(x-3)(x+2)] * [(x-3)(x-1)]/[(x+2)(x+1)] * (x-3)/(x+1). Se cancelan un (x+2) y un (x-3). Queda (x+3)(x-1)(x-3) / [(x+2)(x+1)²]. No hay simplificación masiva, el ejercicio está mal planteado."
+    "tags": ["FÍSICA", "CUÁNTICA"],
+    "hint": "Para elevar una notación científica al cuadrado, eleva el coeficiente al cuadrado y multiplica el exponente por 2.",
+    "explanation": "Se calcula (6.626)<sup>2</sup> ≈ 43.9 y se multiplica el exponente: 10<sup>-34 * 2</sup> = 10<sup>-68</sup>. El resultado es 43.9 x 10<sup>-68</sup>, que se normaliza a 4.39 x 10<sup>-67</sup>."
+  },
+  {
+    "id": "CEPQUI06",
+    "question": "La ley de los gases ideales es PV = nRT. Si la presión (P) es proporcional a T<sup>4</sup> (ley de Stefan-Boltzmann para la radiación de un cuerpo negro), ¿cómo se relaciona V con T si n y R son constantes?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "V es proporcional a T<sup>-3</sup>", "correct": true },
+      { "text": "V es proporcional a T<sup>5</sup>", "correct": false },
+      { "text": "V es proporcional a T<sup>4</sup>", "correct": false },
+      { "text": "V es proporcional a T<sup>3</sup>", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "FÍSICA", "GASES"],
+    "hint": "Sustituye P en la ley de los gases ideales y despeja V en términos de T.",
+    "explanation": "Si P = k·T<sup>4</sup>, entonces (k·T<sup>4</sup>)V = nRT. Despejando V, obtenemos V = (nR/k) * (T/T<sup>4</sup>) = (constante) * T<sup>1-4</sup> = (constante) * T<sup>-3</sup>. Por lo tanto, V es proporcional a T<sup>-3</sup>."
+  },
+  {
+    "id": "CEPMA07",
+    "question": "Calcula la integral indefinida de ∫6x<sup>5</sup> dx.",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "x<sup>6</sup> + C", "correct": true },
+      { "text": "30x<sup>4</sup> + C", "correct": false },
+      { "text": "6x<sup>6</sup> + C", "correct": false },
+      { "text": "x<sup>5</sup> + C", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "CÁLCULO"],
+    "hint": "Usa la regla de la potencia para integrales: ∫x<sup>n</sup> dx = (x<sup>n+1</sup>)/(n+1) + C.",
+    "explanation": "Aplicando la regla, la integral de 6x<sup>5</sup> es 6 * (x<sup>5+1</sup>)/(5+1) + C = 6 * (x<sup>6</sup>)/6 + C = x<sup>6</sup> + C."
+  },
+  {
+    "id": "CEPQUI08",
+    "question": "¿Cuál es la fórmula química del sulfato de amonio?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>", "correct": true },
+      { "text": "NH<sub>4</sub>(SO<sub>4</sub>)<sub>2</sub>", "correct": false },
+      { "text": "NH<sub>3</sub>SO<sub>4</sub>", "correct": false },
+      { "text": "AmS", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "NOMENCLATURA"],
+    "hint": "El ion amonio es NH<sub>4</sub><sup>+</sup> y el ion sulfato es SO<sub>4</sub><sup>2-</sup>. Necesitas balancear las cargas.",
+    "explanation": "Se necesitan dos iones de amonio (carga +1 cada uno) para balancear la carga -2 del ion sulfato, resultando en la fórmula (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>."
+  },
+  {
+    "id": "CEPFIS09",
+    "question": "La intensidad de una onda esférica disminuye con el inverso del cuadrado de la distancia (r<sup>-2</sup>). Si la intensidad a 2 metros es I<sub>0</sub>, ¿cuál es la intensidad a 8 metros?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "I<sub>0</sub> / 16", "correct": true },
+      { "text": "I<sub>0</sub> / 4", "correct": false },
+      { "text": "I<sub>0</sub> / 8", "correct": false },
+      { "text": "I<sub>0</sub> / 64", "correct": false }
+    ],
+    "tags": ["FÍSICA", "ONDAS"],
+    "hint": "La distancia se cuadruplicó (de 2 a 8 m). ¿Cómo afecta esto a la intensidad si la relación es r<sup>-2</sup>?",
+    "explanation": "La intensidad es proporcional a 1/r<sup>2</sup>. Si la distancia se multiplica por 4, la intensidad se divide por 4<sup>2</sup> = 16. Por lo tanto, la nueva intensidad es I<sub>0</sub>/16."
+  },
+  {
+    "id": "CEPMA10",
+    "question": "Simplifica la expresión (2a<sup>4</sup>b<sup>-2</sup>)<sup>3</sup>.",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "8a<sup>12</sup>b<sup>-6</sup>", "correct": true },
+      { "text": "6a<sup>7</sup>b<sup>1</sup>", "correct": false },
+      { "text": "8a<sup>7</sup>b<sup>-6</sup>", "correct": false },
+      { "text": "2a<sup>12</sup>b<sup>-6</sup>", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "ÁLGEBRA"],
+    "hint": "Eleva cada factor dentro del paréntesis a la potencia de 3. Recuerda que (x<sup>m</sup>)<sup>n</sup> = x<sup>m*n</sup>.",
+    "explanation": "Se calcula 2<sup>3</sup> = 8. Para las variables, se multiplican los exponentes: (a<sup>4</sup>)<sup>3</sup> = a<sup>12</sup> y (b<sup>-2</sup>)<sup>3</sup> = b<sup>-6</sup>. El resultado es 8a<sup>12</sup>b<sup>-6</sup>."
+  },
+  {
+    "id": "CEPQUI11",
+    "question": "Para la reacción 2SO<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2SO<sub>3</sub>(g), ¿cuál es la expresión de la constante de equilibrio K<sub>c</sub>?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "K<sub>c</sub> = [SO<sub>3</sub>]<sup>2</sup> / ([SO<sub>2</sub>]<sup>2</sup>[O<sub>2</sub>])", "correct": true },
+      { "text": "K<sub>c</sub> = [SO<sub>2</sub>]<sup>2</sup>[O<sub>2</sub>] / [SO<sub>3</sub>]<sup>2</sup>", "correct": false },
+      { "text": "K<sub>c</sub> = [SO<sub>3</sub>] / ([SO<sub>2</sub>][O<sub>2</sub>])", "correct": false },
+      { "text": "K<sub>c</sub> = 2[SO<sub>3</sub>] / (2[SO<sub>2</sub>][O<sub>2</sub>])", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "EQUILIBRIO"],
+    "hint": "La constante de equilibrio es la concentración de los productos elevada a sus coeficientes, dividida por la de los reactivos elevada a los suyos.",
+    "explanation": "Los productos (derecha) van en el numerador y los reactivos (izquierda) en el denominador. Los coeficientes estequiométricos se usan como exponentes para cada especie."
+  },
+  {
+    "id": "CEPFIS12",
+    "question": "Según la Ley de Enfriamiento de Newton, la tasa de cambio de temperatura es proporcional a la diferencia de temperaturas. Esto se modela con la ecuación dT/dt = -k(T - T<sub>a</sub>), cuya solución es T(t) = T<sub>a</sub> + (T<sub>0</sub> - T<sub>a</sub>)e<sup>-kt</sup>. Si T<sub>0</sub>=100°C, T<sub>a</sub>=20°C y k=0.05, ¿cuál es la temperatura a los 10 segundos?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "68.5 °C", "correct": true },
+      { "text": "48.5 °C", "correct": false },
+      { "text": "20 °C", "correct": false },
+      { "text": "80 °C", "correct": false }
+    ],
+    "tags": ["FÍSICA", "TERMODINÁMICA"],
+    "hint": "Sustituye los valores en la fórmula. Necesitarás calcular e<sup>-0.5</sup>.",
+    "explanation": "T(10) = 20 + (100 - 20)e<sup>-0.05*10</sup> = 20 + 80e<sup>-0.5</sup> ≈ 20 + 80(0.6065) ≈ 20 + 48.52 = 68.52°C."
+  },
+  {
+    "id": "CEPMA13",
+    "question": "Desarrolla el binomio (x + 2)<sup>4</sup>.",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "x<sup>4</sup> + 8x<sup>3</sup> + 24x<sup>2</sup> + 32x + 16", "correct": true },
+      { "text": "x<sup>4</sup> + 16", "correct": false },
+      { "text": "x<sup>4</sup> + 8x<sup>3</sup> + 16", "correct": false },
+      { "text": "4x + 8", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "ÁLGEBRA"],
+    "hint": "Usa el Teorema del Binomio o los coeficientes del Triángulo de Pascal (1, 4, 6, 4, 1).",
+    "explanation": "Los términos son: 1(x<sup>4</sup>)(2<sup>0</sup>) + 4(x<sup>3</sup>)(2<sup>1</sup>) + 6(x<sup>2</sup>)(2<sup>2</sup>) + 4(x<sup>1</sup>)(2<sup>3</sup>) + 1(x<sup>0</sup>)(2<sup>4</sup>) = x<sup>4</sup> + 8x<sup>3</sup> + 24x<sup>2</sup> + 32x + 16."
+  },
+  {
+    "id": "CEPQUI14",
+    "question": "Si una solución tiene una concentración de iones hidronio [H<sub>3</sub>O<sup>+</sup>] de 1.0 x 10<sup>-9</sup> M, ¿cuál es su pH?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "9", "correct": true },
+      { "text": "-9", "correct": false },
+      { "text": "5", "correct": false },
+      { "text": "1 x 10<sup>9</sup>", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "ÁCIDOS Y BASES"],
+    "hint": "La fórmula del pH es: pH = -log[H<sub>3</sub>O<sup>+</sup>].",
+    "explanation": "pH = -log(1.0 x 10<sup>-9</sup>) = -(-9) = 9. La solución es básica."
+  },
+  {
+    "id": "CEPFIS15",
+    "question": "La energía cinética relativista de una partícula es E<sub>k</sub> = (γ - 1)m<sub>0</sub>c<sup>2</sup>, donde el factor de Lorentz γ = (1 - v<sup>2</sup>/c<sup>2</sup>)<sup>-1/2</sup>. ¿Qué pasa con γ cuando la velocidad 'v' se acerca a la velocidad de la luz 'c'?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "γ tiende a infinito", "correct": true },
+      { "text": "γ tiende a 0", "correct": false },
+      { "text": "γ tiende a 1", "correct": false },
+      { "text": "γ tiende a -1", "correct": false }
+    ],
+    "tags": ["FÍSICA", "RELATIVIDAD"],
+    "hint": "Analiza el denominador (1 - v<sup>2</sup>/c<sup>2</sup>)<sup>1/2</sup> cuando v → c.",
+    "explanation": "Cuando v se acerca a c, el cociente v<sup>2</sup>/c<sup>2</sup> se acerca a 1. El término (1 - v<sup>2</sup>/c<sup>2</sup>) se acerca a 0. El inverso de un número que tiende a cero es infinito. Por lo tanto, γ tiende a infinito."
+  },
+  {
+    "id": "CEPMA16",
+    "question": "Resuelve para x: 2<sup>x+3</sup> = 128.",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "x = 4", "correct": true },
+      { "text": "x = 5", "correct": false },
+      { "text": "x = 7", "correct": false },
+      { "text": "x = 10", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "ÁLGEBRA"],
+    "hint": "Expresa 128 como una potencia de 2.",
+    "explanation": "128 es 2<sup>7</sup>. Por lo tanto, la ecuación se convierte en 2<sup>x+3</sup> = 2<sup>7</sup>. Igualando los exponentes, tenemos x + 3 = 7, lo que da x = 4."
+  },
+  {
+    "id": "CEPQUI17",
+    "question": "La configuración electrónica del Argón (Ar, Z=18) es:",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>", "correct": true },
+      { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>4</sup>4s<sup>2</sup>", "correct": false },
+      { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>", "correct": false },
+      { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>5</sup>4s<sup>1</sup>", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "ESTRUCTURA ATÓMICA"],
+    "hint": "Llena los orbitales en orden de energía (1s, 2s, 2p, 3s, 3p...) hasta sumar 18 electrones.",
+    "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e<sup>-</sup>), p (máx 6e<sup>-</sup>). Sumando los electrones: 2+2+6+2+6 = 18."
+  },
+  {
+    "id": "CEPFIS18",
+    "question": "La energía de los niveles en el átomo de hidrógeno viene dada por E<sub>n</sub> = -13.6 eV / n<sup>2</sup>. ¿Cuál es la energía del nivel n=4?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "-0.85 eV", "correct": true },
+      { "text": "-3.4 eV", "correct": false },
+      { "text": "-1.51 eV", "correct": false },
+      { "text": "-13.6 eV", "correct": false }
+    ],
+    "tags": ["FÍSICA", "CUÁNTICA"],
+    "hint": "Sustituye n=4 en la fórmula y calcula el resultado.",
+    "explanation": "E<sub>4</sub> = -13.6 eV / 4<sup>2</sup> = -13.6 eV / 16 = -0.85 eV."
+  },
+  {
+    "id": "CEPMA19",
+    "question": "Simplifica la expresión con exponentes fraccionarios: (16y<sup>8</sup>)<sup>3/4</sup>",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "8y<sup>6</sup>", "correct": true },
+      { "text": "12y<sup>6</sup>", "correct": false },
+      { "text": "8y<sup>8</sup>", "correct": false },
+      { "text": "16y<sup>6</sup>", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "ÁLGEBRA"],
+    "hint": "Recuerda que x<sup>m/n</sup> = (<sup>n</sup>√x)<sup>m</sup>. Aplica la potencia a cada factor.",
+    "explanation": "Primero, la raíz cuarta: <sup>4</sup>√16 = 2 y <sup>4</sup>√y<sup>8</sup> = y<sup>2</sup>. Luego, elevamos al cubo: (2y<sup>2</sup>)<sup>3</sup> = 2<sup>3</sup>(y<sup>2</sup>)<sup>3</sup> = 8y<sup>6</sup>."
+  },
+  {
+    "id": "CEPQUI20",
+    "question": "Balancea la ecuación de combustión del butano: C<sub>4</sub>H<sub>10</sub> + O<sub>2</sub> → CO<sub>2</sub> + H<sub>2</sub>O",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O", "correct": true },
+      { "text": "C<sub>4</sub>H<sub>10</sub> + 6O<sub>2</sub> → 4CO<sub>2</sub> + 5H<sub>2</sub>O", "correct": false },
+      { "text": "C<sub>4</sub>H<sub>10</sub> + O<sub>2</sub> → C<sub>4</sub>O<sub>2</sub> + H<sub>10</sub>", "correct": false },
+      { "text": "4C<sub>4</sub>H<sub>10</sub> + 20O<sub>2</sub> → 16CO<sub>2</sub> + 20H<sub>2</sub>O", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "REACCIONES"],
+    "hint": "Balancea primero los Carbonos, luego los Hidrógenos y finalmente los Oxígenos.",
+    "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 CO<sub>2</sub> y 10 H<sub>2</sub>O. Esto da un total de (8*2 + 10*1) = 26 átomos de O. Para tener 26 O en los reactivos, necesitas 13 O<sub>2</sub>. La ecuación balanceada es 2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O."
+  },
+  {
+    "id": "CEPFIS21",
+    "question": "La Ley de Gravitación Universal de Newton es F = G(m<sub>1</sub>m<sub>2</sub>)/r<sup>2</sup>. Si la distancia 'r' se reduce a la mitad, ¿cómo cambia la fuerza F?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "Se cuadruplica (4F)", "correct": true },
+      { "text": "Se duplica (2F)", "correct": false },
+      { "text": "Se reduce a la mitad (F/2)", "correct": false },
+      { "text": "Se reduce a la cuarta parte (F/4)", "correct": false }
+    ],
+    "tags": ["FÍSICA", "MECÁNICA"],
+    "hint": "La fuerza es inversamente proporcional al cuadrado de la distancia. Analiza qué pasa si r se convierte en r/2.",
+    "explanation": "La nueva fuerza F' = G(m<sub>1</sub>m<sub>2</sub>)/(r/2)<sup>2</sup> = G(m<sub>1</sub>m<sub>2</sub>)/(r<sup>2</sup>/4) = 4 * [G(m<sub>1</sub>m<sub>2</sub>)/r<sup>2</sup>] = 4F."
+  },
+  {
+    "id": "CEPMA22",
+    "question": "Si log<sub>b</sub>(x<sup>5</sup>) = 10, ¿cuál es el valor de log<sub>b</sub>(x)?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "2", "correct": true },
+      { "text": "5", "correct": false },
+      { "text": "10", "correct": false },
+      { "text": "0.5", "correct": false }
+    ],
+    "tags": ["MATEMÁTICAS", "LOGARITMOS"],
+    "hint": "Usa la propiedad de los logaritmos: log(a<sup>n</sup>) = n*log(a).",
+    "explanation": "Aplicando la propiedad, tenemos 5 * log<sub>b</sub>(x) = 10. Dividiendo ambos lados por 5, obtenemos log<sub>b</sub>(x) = 2."
+  },
+  {
+    "id": "CEPQUI23",
+    "question": "La ley de velocidad para una reacción es: Velocidad = k[A]<sup>2</sup>[B]. Si la concentración de A se triplica y la de B se duplica, ¿cómo cambia la velocidad de la reacción?",
+    "image": "https://i.imgur.com/dnSLLJl.png",
+    "options": [
+      { "text": "Se multiplica por 18", "correct": true },
+      { "text": "Se multiplica por 6", "correct": false },
+      { "text": "Se multiplica por 12", "correct": false },
+      { "text": "Se multiplica por 9", "correct": false }
+    ],
+    "tags": ["QUÍMICA", "CINÉTICA"],
+    "hint": "Sustituye [3A] en lugar de [A] y [2B] en lugar de [B] en la ecuación de velocidad.",
+    "explanation": "La nueva velocidad = k[3A]<sup>2</sup>[2B] = k(9[A]<sup>2</sup>)(2[B]) = 18 * (k[A]<sup>2</sup>[B]). La velocidad se multiplica por 18."
   }
 ]
