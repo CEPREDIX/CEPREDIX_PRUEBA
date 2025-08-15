@@ -27,7 +27,7 @@
     "tags": ["GENERAL", "IPN"],
     "hint": "Medio físico en que la información viaja de un punto a otro.",
     "explanation": "El canal es el medio por el cual se transmite el mensaje, como el aire, el papel o internet."
-  }
+  },
   {
     "id": "CEPCOL7AA",
     "question": "Simplifica a la mínima expresión: (x²+5x+6)/(x²-x-6) * (x²-2x-3)/(x²+3x+2) * (x-3)/(x+1)",
