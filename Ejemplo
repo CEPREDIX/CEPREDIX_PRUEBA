@@ -44,7 +44,6 @@
   {
     "id": "CEPMA07",
     "question": "Calcula la integral indefinida de ∫6x<sup>5</sup> dx.",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "x<sup>6</sup> + C", "correct": true },
       { "text": "30x<sup>4</sup> + C", "correct": false },
@@ -58,7 +57,6 @@
   {
     "id": "CEPQUI08",
     "question": "¿Cuál es la fórmula química del sulfato de amonio?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>", "correct": true },
       { "text": "NH<sub>4</sub>(SO<sub>4</sub>)<sub>2</sub>", "correct": false },
@@ -72,7 +70,6 @@
   {
     "id": "CEPFIS09",
     "question": "La intensidad de una onda esférica disminuye con el inverso del cuadrado de la distancia (r<sup>-2</sup>). Si la intensidad a 2 metros es I<sub>0</sub>, ¿cuál es la intensidad a 8 metros?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "I<sub>0</sub> / 16", "correct": true },
       { "text": "I<sub>0</sub> / 4", "correct": false },
@@ -100,7 +97,6 @@
   {
     "id": "CEPQUI11",
     "question": "Para la reacción 2SO<sub>2</sub>(g) + O<sub>2</sub>(g) ⇌ 2SO<sub>3</sub>(g), ¿cuál es la expresión de la constante de equilibrio K<sub>c</sub>?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "K<sub>c</sub> = [SO<sub>3</sub>]<sup>2</sup> / ([SO<sub>2</sub>]<sup>2</sup>[O<sub>2</sub>])", "correct": true },
       { "text": "K<sub>c</sub> = [SO<sub>2</sub>]<sup>2</sup>[O<sub>2</sub>] / [SO<sub>3</sub>]<sup>2</sup>", "correct": false },
@@ -114,7 +110,6 @@
   {
     "id": "CEPFIS12",
     "question": "Según la Ley de Enfriamiento de Newton, la tasa de cambio de temperatura es proporcional a la diferencia de temperaturas. Esto se modela con la ecuación dT/dt = -k(T - T<sub>a</sub>), cuya solución es T(t) = T<sub>a</sub> + (T<sub>0</sub> - T<sub>a</sub>)e<sup>-kt</sup>. Si T<sub>0</sub>=100°C, T<sub>a</sub>=20°C y k=0.05, ¿cuál es la temperatura a los 10 segundos?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "68.5 °C", "correct": true },
       { "text": "48.5 °C", "correct": false },
@@ -129,7 +124,6 @@
   {
     "id": "CEPMA13",
     "question": "Desarrolla el binomio (x + 2)<sup>4</sup>.",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "x<sup>4</sup> + 8x<sup>3</sup> + 24x<sup>2</sup> + 32x + 16", "correct": true },
       { "text": "x<sup>4</sup> + 16", "correct": false },
@@ -171,7 +165,6 @@
   {
     "id": "CEPMA16",
     "question": "Resuelve para x: 2<sup>x+3</sup> = 128.",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "x = 4", "correct": true },
       { "text": "x = 5", "correct": false },
@@ -241,7 +234,6 @@
   {
     "id": "CEPFIS21",
     "question": "La Ley de Gravitación Universal de Newton es F = G(m<sub>1</sub>m<sub>2</sub>)/r<sup>2</sup>. Si la distancia 'r' se reduce a la mitad, ¿cómo cambia la fuerza F?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "Se cuadruplica (4F)", "correct": true },
       { "text": "Se duplica (2F)", "correct": false },
