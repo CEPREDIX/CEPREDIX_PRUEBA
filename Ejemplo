@@ -11,8 +11,8 @@
     ],
     "tags": ["GENERAL", "CÁLCULO"],
     "hint": "Aplica la regla de la potencia para derivadas: d/dx(x<sup>n</sup>) = nx<sup>n-1</sup>.",
-    "explanation": "Al derivar término por término, la derivada de 3x<sup>5</sup> es 15x<sup>4</sup> y la de -2x<sup>4</sup> es -8x<sup>3</sup>. La derivada de una constante (7) es 0."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "Al derivar término por término, la derivada de 3x<sup>5</sup> es 15x<sup>4</sup> y la de -2x<sup>4</sup> es -8x<sup>3</sup>. La derivada de una constante (7) es 0.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPFIS05",
@@ -40,8 +40,8 @@
     ],
     "tags": ["GENERAL", "FÍSICA", "GASES"],
     "hint": "Sustituye P en la ley de los gases ideales y despeja V en términos de T.",
-    "explanation": "Si P = k·T<sup>4</sup>, entonces (k·T<sup>4</sup>)V = nRT. Despejando V, obtenemos V = (nR/k) * (T/T<sup>4</sup>) = (constante) * T<sup>1-4</sup> = (constante) * T<sup>-3</sup>. Por lo tanto, V es proporcional a T<sup>-3</sup>."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "Si P = k·T<sup>4</sup>, entonces (k·T<sup>4</sup>)V = nRT. Despejando V, obtenemos V = (nR/k) * (T/T<sup>4</sup>) = (constante) * T<sup>1-4</sup> = (constante) * T<sup>-3</sup>. Por lo tanto, V es proporcional a T<sup>-3</sup>.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPMA07",
@@ -83,8 +83,8 @@
     ],
     "tags": ["GENERAL", "ONDAS"],
     "hint": "La distancia se cuadruplicó (de 2 a 8 m). ¿Cómo afecta esto a la intensidad si la relación es r<sup>-2</sup>?",
-    "explanation": "La intensidad es proporcional a 1/r<sup>2</sup>. Si la distancia se multiplica por 4, la intensidad se divide por 4<sup>2</sup> = 16. Por lo tanto, la nueva intensidad es I<sub>0</sub>/16."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "La intensidad es proporcional a 1/r<sup>2</sup>. Si la distancia se multiplica por 4, la intensidad se divide por 4<sup>2</sup> = 16. Por lo tanto, la nueva intensidad es I<sub>0</sub>/16.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPMA10",
@@ -126,8 +126,8 @@
     ],
     "tags": ["IPN", "TERMODINÁMICA"],
     "hint": "Sustituye los valores en la fórmula. Necesitarás calcular e<sup>-0.5</sup>.",
-    "explanation": "T(10) = 20 + (100 - 20)e<sup>-0.05*10</sup> = 20 + 80e<sup>-0.5</sup> ≈ 20 + 80(0.6065) ≈ 20 + 48.52 = 68.52°C."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "T(10) = 20 + (100 - 20)e<sup>-0.05*10</sup> = 20 + 80e<sup>-0.5</sup> ≈ 20 + 80(0.6065) ≈ 20 + 48.52 = 68.52°C.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPMA13",
@@ -155,8 +155,8 @@
     ],
     "tags": ["IPN", "ÁCIDOS Y BASES"],
     "hint": "La fórmula del pH es: pH = -log[H<sub>3</sub>O<sup>+</sup>].",
-    "explanation": "pH = -log(1.0 x 10<sup>-9</sup>) = -(-9) = 9. La solución es básica."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "pH = -log(1.0 x 10<sup>-9</sup>) = -(-9) = 9. La solución es básica.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPFIS15",
@@ -212,8 +212,8 @@
     ],
     "tags": ["UAM", "CUÁNTICA"],
     "hint": "Sustituye n=4 en la fórmula y calcula el resultado.",
-    "explanation": "E<sub>4</sub> = -13.6 eV / 4<sup>2</sup> = -13.6 eV / 16 = -0.85 eV."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "E<sub>4</sub> = -13.6 eV / 4<sup>2</sup> = -13.6 eV / 16 = -0.85 eV.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPMA19",
@@ -241,8 +241,8 @@
     ],
     "tags": ["UAM", "REACCIONES"],
     "hint": "Balancea primero los Carbonos, luego los Hidrógenos y finalmente los Oxígenos.",
-    "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 CO<sub>2</sub> y 10 H<sub>2</sub>O. Esto da un total de (8*2 + 10*1) = 26 átomos de O. Para tener 26 O en los reactivos, necesitas 13 O<sub>2</sub>. La ecuación balanceada es 2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 CO<sub>2</sub> y 10 H<sub>2</sub>O. Esto da un total de (8*2 + 10*1) = 26 átomos de O. Para tener 26 O en los reactivos, necesitas 13 O<sub>2</sub>. La ecuación balanceada es 2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   },
   {
     "id": "CEPFIS21",
@@ -284,7 +284,7 @@
     ],
     "tags": ["EXANI II", "BUAP"],
     "hint": "Sustituye [3A] en lugar de [A] y [2B] en lugar de [B] en la ecuación de velocidad.",
-    "explanation": "La nueva velocidad = k[3A]<sup>2</sup>[2B] = k(9[A]<sup>2</sup>)(2[B]) = 18 * (k[A]<sup>2</sup>[B]). La velocidad se multiplica por 18."
-	"explanative_video": "https://youtu.be/dxbGCE1g4Y0"
+    "explanation": "La nueva velocidad = k[3A]<sup>2</sup>[2B] = k(9[A]<sup>2</sup>)(2[B]) = 18 * (k[A]<sup>2</sup>[B]). La velocidad se multiplica por 18.",
+    "explanative_video": "https://youtu.be/dxbGCE1g4Y0"
   }
 ]
