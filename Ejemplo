@@ -2,7 +2,6 @@
   {
     "id": "CEPMA04",
     "question": "Encuentra la derivada de la función f(x) = 3x<sup>5</sup> - 2x<sup>4</sup> + 7",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "f'(x) = 15x<sup>4</sup> - 8x<sup>3</sup>", "correct": true },
       { "text": "f'(x) = 5x<sup>4</sup> - 4x<sup>3</sup>", "correct": false },
@@ -94,7 +93,7 @@
       { "text": "8a<sup>7</sup>b<sup>-6</sup>", "correct": false },
       { "text": "2a<sup>12</sup>b<sup>-6</sup>", "correct": false }
     ],
-    "tags": ["UNAM", "ÁLGEBRA"],
+    "tags": ["GENERAL", "UNAM", "ÁLGEBRA"],
     "hint": "Eleva cada factor dentro del paréntesis a la potencia de 3. Recuerda que (x<sup>m</sup>)<sup>n</sup> = x<sup>m*n</sup>.",
     "explanation": "Se calcula 2<sup>3</sup> = 8. Para las variables, se multiplican los exponentes: (a<sup>4</sup>)<sup>3</sup> = a<sup>12</sup> y (b<sup>-2</sup>)<sup>3</sup> = b<sup>-6</sup>. El resultado es 8a<sup>12</sup>b<sup>-6</sup>."
   },
@@ -122,7 +121,7 @@
       { "text": "20 °C", "correct": false },
       { "text": "80 °C", "correct": false }
     ],
-    "tags": ["IPN", "TERMODINÁMICA"],
+    "tags": ["GENERAL", "IPN", "TERMODINÁMICA"],
     "hint": "Sustituye los valores en la fórmula. Necesitarás calcular e<sup>-0.5</sup>.",
     "explanation": "T(10) = 20 + (100 - 20)e<sup>-0.05*10</sup> = 20 + 80e<sup>-0.5</sup> ≈ 20 + 80(0.6065) ≈ 20 + 48.52 = 68.52°C.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
@@ -137,7 +136,7 @@
       { "text": "x<sup>4</sup> + 8x<sup>3</sup> + 16", "correct": false },
       { "text": "4x + 8", "correct": false }
     ],
-    "tags": ["IPN", "ÁLGEBRA"],
+    "tags": ["GENERAL", "IPN", "ÁLGEBRA"],
     "hint": "Usa el Teorema del Binomio o los coeficientes del Triángulo de Pascal (1, 4, 6, 4, 1).",
     "explanation": "Los términos son: 1(x<sup>4</sup>)(2<sup>0</sup>) + 4(x<sup>3</sup>)(2<sup>1</sup>) + 6(x<sup>2</sup>)(2<sup>2</sup>) + 4(x<sup>1</sup>)(2<sup>3</sup>) + 1(x<sup>0</sup>)(2<sup>4</sup>) = x<sup>4</sup> + 8x<sup>3</sup> + 24x<sup>2</sup> + 32x + 16."
   },
@@ -151,7 +150,7 @@
       { "text": "5", "correct": false },
       { "text": "1 x 10<sup>9</sup>", "correct": false }
     ],
-    "tags": ["IPN", "ÁCIDOS Y BASES"],
+    "tags": ["GENERAL", "IPN", "ÁCIDOS Y BASES"],
     "hint": "La fórmula del pH es: pH = -log[H<sub>3</sub>O<sup>+</sup>].",
     "explanation": "pH = -log(1.0 x 10<sup>-9</sup>) = -(-9) = 9. La solución es básica.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
@@ -165,7 +164,7 @@
       { "text": "γ tiende a 1", "correct": false },
       { "text": "γ tiende a -1", "correct": false }
     ],
-    "tags": ["IPN", "RELATIVIDAD"],
+    "tags": ["GENERAL", "IPN", "RELATIVIDAD"],
     "hint": "Analiza el denominador (1 - v<sup>2</sup>/c<sup>2</sup>)<sup>1/2</sup> cuando v → c.",
     "explanation": "Cuando v se acerca a c, el cociente v<sup>2</sup>/c<sup>2</sup> se acerca a 1. El término (1 - v<sup>2</sup>/c<sup>2</sup>) se acerca a 0. El inverso de un número que tiende a cero es infinito. Por lo tanto, γ tiende a infinito."
   },
@@ -179,7 +178,7 @@
       { "text": "x = 7", "correct": false },
       { "text": "x = 10", "correct": false }
     ],
-    "tags": ["UAM", "ÁLGEBRA"],
+    "tags": ["GENERAL", "UAM", "ÁLGEBRA"],
     "hint": "Expresa 128 como una potencia de 2.",
     "explanation": "128 es 2<sup>7</sup>. Por lo tanto, la ecuación se convierte en 2<sup>x+3</sup> = 2<sup>7</sup>. Igualando los exponentes, tenemos x + 3 = 7, lo que da x = 4."
   },
@@ -193,7 +192,7 @@
       { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>", "correct": false },
       { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>5</sup>4s<sup>1</sup>", "correct": false }
     ],
-    "tags": ["UAM", "ESTRUCTURA ATÓMICA"],
+    "tags": ["GENERAL", "UAM", "ESTRUCTURA ATÓMICA"],
     "hint": "Llena los orbitales en orden de energía (1s, 2s, 2p, 3s, 3p...) hasta sumar 18 electrones.",
     "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e<sup>-</sup>), p (máx 6e<sup>-</sup>). Sumando los electrones: 2+2+6+2+6 = 18."
   },
@@ -206,7 +205,7 @@
       { "text": "-1.51 eV", "correct": false },
       { "text": "-13.6 eV", "correct": false }
     ],
-    "tags": ["UAM", "CUÁNTICA"],
+    "tags": ["GENERAL", "UAM", "CUÁNTICA"],
     "hint": "Sustituye n=4 en la fórmula y calcula el resultado.",
     "explanation": "E<sub>4</sub> = -13.6 eV / 4<sup>2</sup> = -13.6 eV / 16 = -0.85 eV.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
@@ -221,7 +220,7 @@
       { "text": "8y<sup>8</sup>", "correct": false },
       { "text": "16y<sup>6</sup>", "correct": false }
     ],
-    "tags": ["UAM", "ÁLGEBRA"],
+    "tags": ["GENERAL", "UAM", "ÁLGEBRA"],
     "hint": "Recuerda que x<sup>m/n</sup> = (<sup>n</sup>√x)<sup>m</sup>. Aplica la potencia a cada factor.",
     "explanation": "Primero, la raíz cuarta: <sup>4</sup>√16 = 2 y <sup>4</sup>√y<sup>8</sup> = y<sup>2</sup>. Luego, elevamos al cubo: (2y<sup>2</sup>)<sup>3</sup> = 2<sup>3</sup>(y<sup>2</sup>)<sup>3</sup> = 8y<sup>6</sup>."
   },
@@ -234,7 +233,7 @@
       { "text": "C<sub>4</sub>H<sub>10</sub> + O<sub>2</sub> → C<sub>4</sub>O<sub>2</sub> + H<sub>10</sub>", "correct": false },
       { "text": "4C<sub>4</sub>H<sub>10</sub> + 20O<sub>2</sub> → 16CO<sub>2</sub> + 20H<sub>2</sub>O", "correct": false }
     ],
-    "tags": ["UAM", "REACCIONES"],
+    "tags": ["GENERAL", "UAM", "REACCIONES"],
     "hint": "Balancea primero los Carbonos, luego los Hidrógenos y finalmente los Oxígenos.",
     "explanation": "Para balancear 8 C y 20 H en los productos, necesitas 8 CO<sub>2</sub> y 10 H<sub>2</sub>O. Esto da un total de (8*2 + 10*1) = 26 átomos de O. Para tener 26 O en los reactivos, necesitas 13 O<sub>2</sub>. La ecuación balanceada es 2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
@@ -249,7 +248,7 @@
       { "text": "Se reduce a la mitad (F/2)", "correct": false },
       { "text": "Se reduce a la cuarta parte (F/4)", "correct": false }
     ],
-    "tags": ["IPN", "UAM"],
+    "tags": ["GENERAL", "IPN", "UAM"],
     "hint": "La fuerza es inversamente proporcional al cuadrado de la distancia. Analiza qué pasa si r se convierte en r/2.",
     "explanation": "La nueva fuerza F' = G(m<sub>1</sub>m<sub>2</sub>)/(r/2)<sup>2</sup> = G(m<sub>1</sub>m<sub>2</sub>)/(r<sup>2</sup>/4) = 4 * [G(m<sub>1</sub>m<sub>2</sub>)/r<sup>2</sup>] = 4F."
   },
@@ -262,7 +261,7 @@
       { "text": "10", "correct": false },
       { "text": "0.5", "correct": false }
     ],
-    "tags": ["UNAM", "EXANI II"],
+    "tags": ["GENERAL", "UNAM", "EXANI II"],
     "hint": "Usa la propiedad de los logaritmos: log(a<sup>n</sup>) = n*log(a).",
     "explanation": "Aplicando la propiedad, tenemos 5 * log<sub>b</sub>(x) = 10. Dividiendo ambos lados por 5, obtenemos log<sub>b</sub>(x) = 2."
   },
@@ -275,7 +274,7 @@
       { "text": "Se multiplica por 12", "correct": false },
       { "text": "Se multiplica por 9", "correct": false }
     ],
-    "tags": ["EXANI II", "BUAP"],
+    "tags": ["GENERAL", "EXANI II", "BUAP"],
     "hint": "Sustituye [3A] en lugar de [A] y [2B] en lugar de [B] en la ecuación de velocidad.",
     "explanation": "La nueva velocidad = k[3A]<sup>2</sup>[2B] = k(9[A]<sup>2</sup>)(2[B]) = 18 * (k[A]<sup>2</sup>[B]). La velocidad se multiplica por 18.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
