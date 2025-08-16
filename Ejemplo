@@ -17,7 +17,6 @@
   {
     "id": "CEPFIS05",
     "question": "La constante de Planck (h) es aproximadamente 6.626 x 10<sup>-34</sup> J·s. ¿Cuál sería el valor de h<sup>2</sup>?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "4.39 x 10<sup>-67</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": true },
       { "text": "1.32 x 10<sup>-33</sup> J<sup>2</sup>·s<sup>2</sup>", "correct": false },
@@ -89,7 +88,6 @@
   {
     "id": "CEPMA10",
     "question": "Simplifica la expresión (2a<sup>4</sup>b<sup>-2</sup>)<sup>3</sup>.",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "8a<sup>12</sup>b<sup>-6</sup>", "correct": true },
       { "text": "6a<sup>7</sup>b<sup>1</sup>", "correct": false },
@@ -161,7 +159,6 @@
   {
     "id": "CEPFIS15",
     "question": "La energía cinética relativista de una partícula es E<sub>k</sub> = (γ - 1)m<sub>0</sub>c<sup>2</sup>, donde el factor de Lorentz γ = (1 - v<sup>2</sup>/c<sup>2</sup>)<sup>-1/2</sup>. ¿Qué pasa con γ cuando la velocidad 'v' se acerca a la velocidad de la luz 'c'?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "γ tiende a infinito", "correct": true },
       { "text": "γ tiende a 0", "correct": false },
@@ -203,7 +200,6 @@
   {
     "id": "CEPFIS18",
     "question": "La energía de los niveles en el átomo de hidrógeno viene dada por E<sub>n</sub> = -13.6 eV / n<sup>2</sup>. ¿Cuál es la energía del nivel n=4?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "-0.85 eV", "correct": true },
       { "text": "-3.4 eV", "correct": false },
@@ -232,7 +228,6 @@
   {
     "id": "CEPQUI20",
     "question": "Balancea la ecuación de combustión del butano: C<sub>4</sub>H<sub>10</sub> + O<sub>2</sub> → CO<sub>2</sub> + H<sub>2</sub>O",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O", "correct": true },
       { "text": "C<sub>4</sub>H<sub>10</sub> + 6O<sub>2</sub> → 4CO<sub>2</sub> + 5H<sub>2</sub>O", "correct": false },
@@ -261,7 +256,6 @@
   {
     "id": "CEPMA22",
     "question": "Si log<sub>b</sub>(x<sup>5</sup>) = 10, ¿cuál es el valor de log<sub>b</sub>(x)?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "2", "correct": true },
       { "text": "5", "correct": false },
@@ -275,7 +269,6 @@
   {
     "id": "CEPQUI23",
     "question": "La ley de velocidad para una reacción es: Velocidad = k[A]<sup>2</sup>[B]. Si la concentración de A se triplica y la de B se duplica, ¿cómo cambia la velocidad de la reacción?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
     "options": [
       { "text": "Se multiplica por 18", "correct": true },
       { "text": "Se multiplica por 6", "correct": false },
