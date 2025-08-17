@@ -2,7 +2,7 @@
   {
     "id": "CEPPRU1SD",
     "question": "Encuentra la derivada de la función f(x) = 3x<sup>5</sup> - 2x<sup>4</sup> + 7",
-    "image": "https://i.imgur.com/dnSLLJl.png",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
     "options": [
       { "text": "f'(x) = 15x<sup>4</sup> - 8x<sup>3</sup>", "correct": true },
       { "text": "f'(x) = 5x<sup>4</sup> - 4x<sup>3</sup>", "correct": false },
@@ -32,7 +32,7 @@
   {
     "id": "CEPPRU4SD",
     "question": "La ley de los gases ideales es PV = nRT. Si la presión (P) es proporcional a T<sup>4</sup> (ley de Stefan-Boltzmann para la radiación de un cuerpo negro), ¿cómo se relaciona V con T si n y R son constantes?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
     "options": [
       { "text": "V es proporcional a T<sup>-3</sup>", "correct": true },
       { "text": "V es proporcional a T<sup>5</sup>", "correct": false },
@@ -148,7 +148,7 @@
   {
     "id": "CEPPRU8SD",
     "question": "Si una solución tiene una concentración de iones hidronio [H<sub>3</sub>O<sup>+</sup>] de 1.0 x 10<sup>-9</sup> M, ¿cuál es su pH?",
-    "image": "https://i.imgur.com/dnSLLJl.png",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
     "options": [
       { "text": "9", "correct": true },
       { "text": "-9", "correct": false },
@@ -192,7 +192,7 @@
   {
     "id": "CEPPRU6SB",
     "question": "La configuración electrónica del Argón (Ar, Z=18) es:",
-    "image": "https://i.imgur.com/dnSLLJl.png",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
     "options": [
       { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>6</sup>", "correct": true },
       { "text": "1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>2</sup>3p<sup>4</sup>4s<sup>2</sup>", "correct": false },
@@ -222,7 +222,7 @@
   {
     "id": "CEPPRU6SE",
     "question": "Simplifica la expresión con exponentes fraccionarios: (16y<sup>8</sup>)<sup>3/4</sup>",
-    "image": "https://i.imgur.com/dnSLLJl.png",
+    "image": "https://www.cwc.edu.mx/hs-fs/hubfs/school.gif?width=498&name=school.gif",
     "options": [
       { "text": "8y<sup>6</sup>", "correct": true },
       { "text": "12y<sup>6</sup>", "correct": false },
