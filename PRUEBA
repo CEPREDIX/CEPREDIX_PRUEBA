@@ -47,6 +47,7 @@
   {
     "id": "CEPPRU1SF",
     "question": "Calcula la integral indefinida de $\\int 6x^5 \\,dx$.",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$x^6 + C$", "correct": true },
       { "text": "$30x^4 + C$", "correct": false },
@@ -61,6 +62,7 @@
   {
     "id": "CEPPRU1PD",
     "question": "¿Cuál es la fórmula química del sulfato de amonio?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$(NH_4)_2SO_4$", "correct": true },
       { "text": "$NH_4(SO_4)_2$", "correct": false },
@@ -103,6 +105,7 @@
   {
     "id": "CEPPRU1SC",
     "question": "Para la reacción $2SO_2(g) + O_2(g) \\rightleftharpoons 2SO_3(g)$, ¿cuál es la expresión de la constante de equilibrio $K_c$?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$K_c = \\frac{[SO_3]^2}{[SO_2]^2[O_2]}$", "correct": true },
       { "text": "$K_c = \\frac{[SO_2]^2[O_2]}{[SO_3]^2}$", "correct": false },
@@ -160,6 +163,7 @@
   {
     "id": "CEPPRU7ED",
     "question": "La energía cinética relativista es $E_k = (\\gamma - 1)m_0c^2$, donde $\\gamma = (1 - v^2/c^2)^{-1/2}$. ¿Qué pasa con $\\gamma$ cuando $v \\to c$?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$\\gamma$ tiende a infinito", "correct": true },
       { "text": "$\\gamma$ tiende a 0", "correct": false },
@@ -232,6 +236,7 @@
   {
     "id": "CEPPRU6SF",
     "question": "Balancea la ecuación de combustión del butano: $C_4H_{10} + O_2 \\to CO_2 + H_2O$",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$2C_4H_{10} + 13O_2 \\to 8CO_2 + 10H_2O$", "correct": true },
       { "text": "$C_4H_{10} + 6O_2 \\to 4CO_2 + 5H_2O$", "correct": false },
@@ -316,6 +321,7 @@
   {
     "id": "CEPPRU_CHM_01",
     "question": "La Ley de los Gases Ideales se expresa como $PV=nRT$. ¿Cuál es la fórmula para la densidad ($\\rho$) de un gas ideal?",
+    "image": "https://i.imgur.com/vxy0GjO.png",
     "options": [
       { "text": "$$\\rho = \\frac{PM}{RT}$$", "correct": true },
       { "text": "$$\\rho = \\frac{nRT}{V}$$", "correct": false },
