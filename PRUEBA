@@ -72,7 +72,7 @@
     "uni_tags": ["GENERAL", "UNAM"],
     "level_tag": ["INTERMEDIO"],
     "hint": "El ion amonio es $NH_4^+$ y el ion sulfato es $SO_4^{2-}$. Necesitas balancear las cargas.",
-    "explanation": "Se necesitan dos iones de amonio (carga +1 cada uno) para balancear la carga -2 del ion sulfato, resultando en la fórmula $(NH_4)_2SO_4$."
+    "explanation": "Se necesitan dos iones de amonio (carga +1 cada uno) para balancear la carga -2 del ion sulfato, resultando en la fórmula $(NH_4)_2SO_4$.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
   },
   {
@@ -203,7 +203,7 @@
     "uni_tags": ["GENERAL", "UNAM"],
     "level_tag": ["INTERMEDIO"],
     "hint": "Llena los orbitales en orden de energía (1s, 2s, 2p, 3s, 3p...) hasta sumar 18 electrones.",
-    "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e-), p (máx 6e-). Sumando los electrones: $2+2+6+2+6 = 18$."
+    "explanation": "Los orbitales se llenan de la siguiente manera: s (máx 2e-), p (máx 6e-). Sumando los electrones: $2+2+6+2+6 = 18$.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
   },
   {
@@ -347,7 +347,7 @@
     "uni_tags": ["GENERAL", "UNAM"],
     "level_tag": ["INTERMEDIO"],
     "hint": "Primero encuentra la antiderivada de la función y luego evalúala en los límites de integración usando el Teorema Fundamental del Cálculo.",
-    "explanation": "La antiderivada de $3x^2 - 2x$ es $x^3 - x^2$. Evaluando en los límites: $[(2)^3 - (2)^2] - [(0)^3 - (0)^2] = [8 - 4] - [0] = 4$."
+    "explanation": "La antiderivada de $3x^2 - 2x$ es $x^3 - x^2$. Evaluando en los límites: $[(2)^3 - (2)^2] - [(0)^3 - (0)^2] = [8 - 4] - [0] = 4$.",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
   },
   {
@@ -432,7 +432,7 @@
     "uni_tags": ["GENERAL", "UNAM"],
     "level_tag": ["INTERMEDIO"],
     "hint": "Voltaje es igual a Corriente por Resistencia.",
-    "explanation": "La Ley de Ohm se expresa matemáticamente como $V = IR$, donde V se mide en voltios, I en amperios y R en ohmios ($\\Omega$)."
+    "explanation": "La Ley de Ohm se expresa matemáticamente como $V = IR$, donde V se mide en voltios, I en amperios y R en ohmios ($\\Omega$).",
     "explanative_video": "https://www.youtube.com/watch?v=dxbGCE1g4Y0"
   }
 ]
